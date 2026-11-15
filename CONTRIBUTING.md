@@ -7,9 +7,8 @@ For general development, follow the [upstream contribution guide](https://docs.v
 Keep attribution and licensing intact and sign off contributions.
 
 The controller proposal is discussed in [upstream issue #62574](https://github.com/vllm-project/vllm/issues/62574).
-Its implementation, limitations, reproduction commands and CPU-only results are
-in [the experiment guide](benchmarks/adaptive_prefill/README.md) and
-[validation notes](benchmarks/adaptive_prefill/RESULTS.md).
+When present, the experiment's implementation notes, limitations, reproduction
+commands and CPU-only results are under `benchmarks/adaptive_prefill/`.
 
 GPU validation contributions are welcome. Record the commit, hardware, model,
 server configuration, arrival trace, and baseline/adaptive results. Do not label
